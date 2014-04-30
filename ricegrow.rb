@@ -1166,9 +1166,9 @@ while true
     puts format(fmt, "T O T A L  C O S T S", (operating_costs + @total_costs[:irrigation] + @total_costs[:land_tax] + mortgage))
     puts
     puts ". . . . . . . . . . . . . . . . . . . . "
+    wait
   end
   total_operating_costs = (operating_costs + @total_costs[:irrigation] + @total_costs[:land_tax] + mortgage)
-  wait
   puts
   puts "  S U M M A R Y"
   puts "                                          LAND REFORM OWNER"
